@@ -1,8 +1,9 @@
+'use strict'
 /**
  * @description - trigger callback on user's move
  * @param {function} callback
  */
-export function onUserAction(callback) {
+function onUserAction(callback) {
     const documentEvents = ['touchmove', 'click', 'keydown', 'mousemove']
 
     function handler() {
@@ -12,3 +13,8 @@ export function onUserAction(callback) {
 
     documentEvents.forEach(event => document.body.addEventListener(event, handler))
 }
+
+module.exports = {
+    onUserAction
+}
+
