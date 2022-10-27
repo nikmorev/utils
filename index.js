@@ -1,4 +1,5 @@
 'use strict'
+
 /**
  * @description - trigger callback on user's move
  * @param {function} callback
