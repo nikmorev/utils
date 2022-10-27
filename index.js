@@ -18,4 +18,3 @@ function onUserAction(callback) {
 module.exports = {
     onUserAction
 }
-

@@ -1,6 +1,6 @@
 {
   "name": "utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/nikmorev/utils/issues"
   },
-  "homepage": "https://github.com/nikmorev/utils#readme",
-  "dependencies": {
-    "utils": "git+https://github.com/nikmorev/utils.git"
-  }
+  "homepage": "https://github.com/nikmorev/utils#readme"
 }
